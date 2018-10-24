@@ -2,6 +2,8 @@
 
 El sistema ENNI tiene la capacidad de generarse a si mismo y busca estar desarrollado completamente en C/C++ asi como ser multiplataforma.
 
+E.N.N.I. (El Nombre No Importa) representa la filosofia conductual del desarrollo del proyecto, donde se evita gastar tiempo o destinar recursos en algo que no mejore la calidad del producto ya sean por ejemplo  archivos, documentos, codigos, procesos de produccion, dinero, etc.
+
 ## Objetivos
 - Se busca reducir los pasos entre el codigo fuente y el binario final para disminuir el tamaño en memoria y que el codigo fuente sirba como un medio de exploracion del binario
 - Se pretende que el lenguaje de programacion sea grafico con la finalidad de evitar errores de sintaxis a la hora de programar
