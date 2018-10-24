@@ -1,6 +1,16 @@
-# ENNI
+# E.N.N.I.
 
 El sistema ENNI tiene la capacidad de generarse a si mismo y busca estar desarrollado completamente en C/C++ asi como ser multiplataforma.
+
+## Objetivos
+- Se busca reducir los pasos entre el codigo fuente y el binario final para disminuir el tamaño en memoria y que el codigo fuente sirba como un medio de exploracion del binario
+- Se pretende que el lenguaje de programacion sea grafico con la finalidad de evitar errores de sintaxis a la hora de programar
+- El sistema es autocontenido, esto significa que no necesita nada mas para existir y todo esta escrito en su lenguaje nativo
+- El sistema puede leer codigos de otros lenguajes de programacion y adaptarlos a su sistema
+- El sistema tiene su propio editor
+- Que en un futuro el sistema sea lo suficientemente robusto para absorver un sistema operativo
+- El sistema es un parasito, comienza utilizando un compilar instalado hasta crecer y remplazarlo completamente
+- El sistema puede compartir mejoras con otros sistemas similares
 
 ## Instalacion
 
@@ -28,8 +38,8 @@ Windows MinGW:
 
 ## Diseño
 
-|Clase                  |Responsabilidad
-|---                    |---                                
+Clase                   |Responsabilidad
+---                     |---
 EscanerArchivos         | Escanear directorios en busqueda de dependencias
 Explorador              | Mostrar los archivos escaneados
 LectorArchivo           | Leer un archivo
@@ -42,3 +52,10 @@ BootStrap               | Primer archivo a compilar y ejecutar, el compila el de
 - El codigo de C++ de boostrap tiene que ser portable
 - Los comandos de cada compilador son diferentes
 
+## Librerias para utilizar
+Nombre      | Descripcion
+---         |---
+re2c        | Escaner Generador sencillo para interpretar textos
+clang       | Compilador de C++
+skia        | Biblioteca de generacion de graficos de Google
+git         | Sistema de control de versiones
